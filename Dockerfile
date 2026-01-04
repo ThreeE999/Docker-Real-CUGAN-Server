@@ -17,6 +17,7 @@ COPY ./main.py /main.py
 
 COPY ./server /server
 # COPY ./log /log
+RUN mkdir -p logs
 
 #ENV PYTHONPATH=/app
 
