@@ -16,7 +16,7 @@ COPY ./main.py /main.py
 #RUN chmod +x /start-reload.sh
 
 COPY ./server /server
-COPY ./log /log
+# COPY ./log /log
 
 #ENV PYTHONPATH=/app
 
